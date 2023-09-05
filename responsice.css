@@ -338,9 +338,10 @@ display: none;
         
     }
     #part3btm>h1{
-        font-size: 5vw;
+        margin-left: 0vw;
+        font-size: 6.5vw;
         font-weight: 500;
-        margin-bottom: 7vw;
+        margin-bottom: 5vw;
     }
     .part3btm{
         margin-top: 0vw;
@@ -495,13 +496,14 @@ display: none;
         /* justify-content: center; */
     }
     #part5{
+        margin-top: 10vw;
         width: 100%;
-        height: 110vh;
+        height: 140vh;
         background-color: #22333B;
     }
     #footer1{
         width: 100%;
-        height: 30%;
+        height: 27%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -524,7 +526,7 @@ display: none;
     #footer1one>div>h3{
     font-size: 5.2vw;
     font-weight: 500;
-    margin-bottom: 1vw;
+    margin-bottom: 3vw;
     }
     #footer1one>div>div{
         display: flex;
@@ -542,7 +544,7 @@ display: none;
     #footer1two>div>h3{
     font-size: 5.2vw;
     font-weight: 500;
-    margin-bottom: 1vw;
+    margin-bottom: 3vw;
     }
     #footer1two>div>div{
         display: flex;
@@ -600,7 +602,7 @@ display: none;
     }
     #footer2{
         width: 100%;
-        height: 62%;
+        height: 65%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -612,8 +614,9 @@ display: none;
         height: 45%;
         /* background-color: aqua; */
         display: flex;
+        justify-content: center;
         flex-direction: column;
-        gap: 5vw;
+        gap: 10vw;
         color: white;
     }
     #footer2left>img{
@@ -623,8 +626,10 @@ display: none;
     }
     #footer2left>p{
         width: 90%;
-        font-weight: 300;
-        font-size: 4.2vw;
+        font-weight: lighter;
+        font-size: 4vw;
+        letter-spacing: 1px;
+        /* line-height: 5vw; */
     }
     #footer2left>div{
         display: flex;
@@ -637,6 +642,7 @@ display: none;
         width: 90%;
         height: 50%;
         display: flex;
+        padding-top: 4vw;
         flex-direction: column;
         justify-content: space-between;
         /* align-items: center; */
@@ -678,7 +684,7 @@ display: none;
     }
     #footer3{
         width: 90%;
-        height: 8%;
+        height: 7%;
         /* background-color: #417f9c; */
         margin-left: auto;
         margin-right: auto;
